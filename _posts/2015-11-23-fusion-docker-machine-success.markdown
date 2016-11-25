@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fusion & Docker Machine: Success
+title: Fusion & Docker Machine - Success
 ---
 I've long (i.e. always) had problems with Docker Machine and VMWare Fusion - the machine creation would hang, ever awaiting a live network, and I'd end up throwing my toys and returning to VirtualBox. 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker Machine & VMWare: Now with shared folders!
+title: Docker Machine & VMWare - Now with shared folders!
 ---
 There are a few bugs in docker-machine regarding shared folders with VMWare Fusion, which is problematic if you're trying to use it to run your development environment. However, they've been hard at work sorting this out, and you can now get a VMWare Fusion box running via a dev build of boot2docker from [Fabio Rapposelli](https://github.com/frapposelli).
 
