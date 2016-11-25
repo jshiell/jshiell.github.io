@@ -11,5 +11,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: redcarpet
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
 encoding: utf-8
