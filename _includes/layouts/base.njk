@@ -17,27 +17,33 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      <div>
+        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>
+        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+        <ul class="nav">
+        {%- for entry in collections.all | eleventyNavigation %}
+          <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+        {%- endfor %}
+        </ul>
+      </div>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      {{ content | safe }}
+      <div>
+        {{ content | safe }}
+      </div>
     </main>
 
     <footer>
       <div>
-        &copy; 2023 James Shiell | Licensed under <a href="https://blog.cavelab.dev/about/#license" title="Creative Commons Attribution-ShareAlike 4.0 Internation Licence">CC BY-SA 4.0</a>
+        <div>
+          &copy; 2023 James Shiell | Licensed under <a href="https://blog.cavelab.dev/about/#license" title="Creative Commons Attribution-ShareAlike 4.0 Internation Licence">CC BY-SA 4.0</a>
+        </div>
+        <div>
+          Powered by <a href="https://www.11ty.dev/" title="The Eleventy static site generator">Eleventy</a> and <a href=-"https://pages.github.com/">GitHub Pages</a>
+        </dev>
       </div>
-      <div>
-        Powered by <a href="https://www.11ty.dev/" title="The Eleventy static site generator">Eleventy</a> and <a href=-"https://pages.github.com/">GitHub Pages</a>
-      </dev>
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->
