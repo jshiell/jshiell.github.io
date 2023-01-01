@@ -16,6 +16,8 @@
   --text-colour: var(--colour-grey-90);
   --text-colour-link: #082840;
   --text-colour-link-visited: #17050F;
+
+  --max-content-width: 50em;  /* 800px /16 */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,13 +50,18 @@ body {
   background-color: var(--background-colour);
 }
 
+header, main, footer {
+  width: var(--max-content-width);
+  margin: 0 auto 0 auto;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: var(--max-content-width);
 }
 p,
 .tmpl-post li {
