@@ -9,13 +9,16 @@
   --colour-grey-20: #e0e0e0;
   --colour-grey-50: #C0C0C0;
   --colour-grey-90: #333;
-  --colour-grey-footer: #b0b0b0;
-
-  --background-colour: #fff;
+  --background-colour-header: #f3f3f3;
 
   --text-colour: var(--colour-grey-90);
-  --text-colour-link: #082840;
-  --text-colour-link-visited: #17050F;
+  --text-colour-link: #0e6cb9;
+  --text-colour-link-visited: #6727b1;
+  --text-colour-footer: #b0b0b0;
+  --text-colour-footer-link: #9a9a9a;
+  --text-colour-footer-visited: #9a9a9a;
+
+  --background-colour: #fff;
 
   --max-content-width: 50em;  /* 800px /16 */
 }
@@ -25,11 +28,13 @@
     --colour-grey-20: #e0e0e0;
     --colour-grey-50: #C0C0C0;
     --colour-grey-90: #dad8d8;
-    --colour-grey-footer: #b0b0b0;
+    --background-colour-header: #0a1015;
 
-    /* --text-colour is assigned to --colour-grey-_ above */
     --text-colour-link: #1493fb;
-    --text-colour-link-visited: #a6a6f8;
+    --text-colour-link-visited: #a6aef8;
+    --text-colour-footer: #b0b0b0;
+    --text-colour-footer-link: #cbcbcb;
+    --text-colour-footer-visited: #cbcbcb;
 
     --background-colour: #15202b;
   }
@@ -49,7 +54,6 @@ body {
   color: var(--text-colour);
   background-color: var(--background-colour);
 }
-
 
 header > div,
 main > div,
@@ -85,7 +89,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--colour-grey-20);
+  background-color: var(--background-colour-header);
 }
 header:after {
   content: "";
@@ -130,10 +134,10 @@ code {
 
 /* Header */
 .home {
-  padding: 0 1rem;
+  padding: 0;
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  font-size: 1.2em;
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -143,8 +147,9 @@ code {
 .nav {
   padding: 0;
   list-style: none;
-  float: left;
+  float: right;
   margin-left: 1em;
+  font-size: 1.1em;
 }
 .nav-item {
   display: inline-block;
@@ -156,6 +161,13 @@ code {
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+}
+
+.home a:link,
+.home a:visited,
+.nav a:link,
+.nav a:visited {
+  color: var(--text-colour);
 }
 
 /* Posts list */
@@ -268,6 +280,7 @@ a[href].direct-link:focus:visited,
 }
 
 footer {
+  color: var(--text-colour-footer);
   margin-top: 2rem;
 }
 
@@ -277,6 +290,10 @@ footer > div > * {
   font-size: 80%;
 }
 
-footer, footer a[href]:link, footer a[href]:visited {
-  color: var(--colour-grey-footer);
+footer a[href]:link {
+  color: var(--text-colour-footer-link);
+}
+
+footer a[href]:visited {
+  color: var(--text-colour-footer-visited);
 }
