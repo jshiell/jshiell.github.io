@@ -1,10 +1,9 @@
-
 name: Build & Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - [$default-branch]
+    branches: 
+      - $default-branch
   workflow_dispatch:
 
 permissions:
