@@ -9,6 +9,10 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addNunjucksGlobal("githubSha", process.env.GITHUB_SHA);
+  eleventyConfig.addNunjucksGlobal("githubServerUrl", process.env.GITHUB_SERVER_URL);
+  eleventyConfig.addNunjucksGlobal("githubRepository", process.env.GITHUB_REPOSITORY);
+
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");

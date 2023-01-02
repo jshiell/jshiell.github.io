@@ -42,8 +42,8 @@
           &copy; 2023 James Shiell | Licensed under <a href="https://blog.cavelab.dev/about/#license" title="Creative Commons Attribution-ShareAlike 4.0 Internation Licence">CC BY-SA 4.0</a>
         </div>
         <div>
-          {% if process.env.GITHUB_SHA %}
-          <a href="{{ process.env.GITHUB_SERVER_URL }}/{{ process.env.GITHUB_REPOSITORY }}" title="Source code for this website">Release {{ process.env.GITHUB_SHA | truncate(7) }}</a>
+          {% if githubSha %}
+          Release  <a href="{{ githubServerUrl }}/{{ githubRepository }}" title="Source code for this website">{{ githubSha | truncate(7) }}</a>
           {% else %}
           Dev
           {% endif %} |
