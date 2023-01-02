@@ -43,7 +43,7 @@
         </div>
         <div>
           {% if githubSha %}
-          Release  <a href="{{ githubServerUrl }}/{{ githubRepository }}" title="Source code for this website">{{ githubSha | truncate(7, true, '') }}</a>
+          Release  <a href="{{ githubServerUrl }}/{{ githubRepository }}/commit/{{ githubSha }}" title="Source code for this website">{{ githubSha | truncate(7, true, '') }}</a>
           {% else %}
           Dev
           {% endif %} |
