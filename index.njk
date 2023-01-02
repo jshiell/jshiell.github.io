@@ -4,11 +4,26 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
 {% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
 
+<div class="recent">
+{% for post in postslist | reverse %}
+  <div class="post">
+    <h2><a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h2>
+    <div class="meta">
+    Posted at <time class="meta-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    {% for tag in post.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {% endfor %}
+    </div>
+    
+    <div class="content">
+      {{ post.templateContent | safe }}
+    </div>
+  </div>
+  <hr>
+{% endfor %}
+</div>
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

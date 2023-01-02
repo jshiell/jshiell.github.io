@@ -8,10 +8,12 @@
 :root {
   --colour-grey-20: #e0e0e0;
   --colour-grey-50: #C0C0C0;
+  --colour-grey-70: #5a5a5a;
   --colour-grey-90: #333;
   --background-colour-header: #f3f3f3;
 
   --text-colour: var(--colour-grey-90);
+  --text-colour-meta: var(--colour-grey-70);
   --text-colour-link: #0e6cb9;
   --text-colour-link-visited: #6727b1;
   --text-colour-footer: #b0b0b0;
@@ -27,6 +29,7 @@
   :root {
     --colour-grey-20: #e0e0e0;
     --colour-grey-50: #C0C0C0;
+    --colour-grey-70: #c7c7c7;
     --colour-grey-90: #dad8d8;
     --background-colour-header: #0a1015;
 
@@ -44,6 +47,12 @@
 /* Global stylesheet */
 * {
   box-sizing: border-box;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed var(--colour-grey-50);
+  margin: 2rem 0;
 }
 
 html,
@@ -168,6 +177,17 @@ code {
 .nav a:link,
 .nav a:visited {
   color: var(--text-colour);
+}
+
+/* Home page */
+
+.recent h2 {
+  margin-bottom: 0.5rem;
+}
+
+.recent .meta {
+  font-size: 0.8125em;
+  color: var(--text-colour-meta);
 }
 
 /* Posts list */
