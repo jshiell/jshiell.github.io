@@ -10,16 +10,17 @@
   --colour-grey-50: #C0C0C0;
   --colour-grey-70: #5a5a5a;
   --colour-grey-90: #333;
-  --background-colour-header: #f3f3f3;
 
   --text-colour: var(--colour-grey-90);
   --text-colour-meta: var(--colour-grey-70);
-  --text-colour-link: #0e6cb9;
-  --text-colour-link-visited: #6727b1;
+  --text-colour-link: #189ab4;
+  --text-colour-link-visited: #2e14ae;
+  --text-colour-header: white;
   --text-colour-footer: #b0b0b0;
   --text-colour-footer-link: #9a9a9a;
   --text-colour-footer-visited: #9a9a9a;
 
+  --background-colour-header: #189ab4;
   --background-colour: #fff;
 
   --max-content-width: 50em;  /* 800px /16 */
@@ -31,7 +32,6 @@
     --colour-grey-50: #C0C0C0;
     --colour-grey-70: #c7c7c7;
     --colour-grey-90: #dad8d8;
-    --background-colour-header: #0a1015;
 
     --text-colour-link: #1493fb;
     --text-colour-link-visited: #a6aef8;
@@ -39,6 +39,7 @@
     --text-colour-footer-link: #cbcbcb;
     --text-colour-footer-visited: #cbcbcb;
 
+    --background-colour-header: #05445e;
     --background-colour: #15202b;
   }
 }
@@ -98,12 +99,17 @@ main :first-child {
   margin-top: 0;
 }
 header {
+  color: var(--text-colour-header);
   background-color: var(--background-colour-header);
 }
 header:after {
   content: "";
   display: table;
   clear: both;
+}
+header a[href]:link,
+header a[href]:visited {
+  color: var(--text-colour-header);
 }
 
 table {
