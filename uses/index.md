@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 4
 ---
 
-Some of the tools/toys/various other things I like to use, inspired by [Wed Bos' uses.tech](https://uses.tech/).
+Some of the tools/toys/various other things I like to use, inspired by [Wes Bos' uses.tech](https://uses.tech/).
 
 # Productive Tech
 
