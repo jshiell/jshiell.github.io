@@ -5,7 +5,7 @@ date: 2023-01-01
 templateClass: tmpl-page
 eleventyNavigation:
   key: About
-  order: 4
+  order: 5
 ---
 
 ## Me, Myself, and I
