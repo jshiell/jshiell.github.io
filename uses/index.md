@@ -14,40 +14,33 @@ Some of the tools/toys/various other things I like to use, inspired by [Wes Bos'
 
 * [MacBook Pro 14" M1 Max](https://en.wikipedia.org/wiki/MacBook_Pro_(Apple_silicon)#Fifth_generation_(Thick_Unibody),_2021), _kindly supplied by my employer_
 * [Kensington SD5700T Thunderbolt Dock](https://www.kensington.com/en-gb/p/products/connectivity/laptop-docks-usb-accessories/sd5700t-thunderbolt-4-dual-4k-docking-station-with-90w-power-delivery/), _also kindly supplied by my employer_
-* Mac Mini M1, _my personal workstation_
-* Apple Magic Keyboard & Trackpad
-* [LG 27UK850](https://www.lg.com/uk/monitors/lg-27UK850) (primary) and [LG 27UD68P](https://www.lg.com/uk/monitors/lg-27UD68P) (secondary) monitors
-* [iPhone 13 Pro](https://en.wikipedia.org/wiki/IPhone_13_Pro)
+* Mac Mini M4 Pro, _my personal workstation_
+* [Logitech MX Mechanical Mini](https://www.logitech.com/en-gb/products/keyboards/mx-mechanical-mini.html) & Apple Trackpad
+* [Coolermaster GP27U](https://www.coolermaster.com/en-gb/products/tempest-gp27u/), [LG 27UK850](https://www.lg.com/uk/monitors/lg-27UK850), and [LG 27UD68P](https://www.lg.com/uk/monitors/lg-27UD68P) monitors
+* [iPhone 16 Pro](https://en.wikipedia.org/wiki/IPhone_16_Pro)
 * [iPad Pro M2 11"](https://en.wikipedia.org/wiki/IPad_Pro_(6th_generation))
-* [Logitech Streamcam](https://www.logitech.com/en-gb/products/webcams/streamcam.960-001281.html)
+* [OBSBot Tiny 2 Webcam](https://www.obsbot.com/obsbot-tiny-2-4k-webcam)
 * [Aftershockz Titanium](https://shokz.com/blogs/news/titanium-discontinued-everything-you-need-to-know) bone-conduction headphones
-* [Blue Yeti Nano](https://www.bluemic.com/en-gb/products/yeti-nano/) microphone
+* [Audio Technica ATR2100x-USB](https://www.audio-technica.com/en-gb/atr2100x-usb) microphone
 * [B&W PX Wireless Headphones](https://www.rtings.com/headphones/reviews/bowers-wilkins/px-wireless)
+* [AirPods 2 Pro](https://www.apple.com/uk/airpods-pro/)
 
 ## Productive Software
 
 * [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)
 * [VS Code](https://code.visualstudio.com/)
 * [iTerm](https://iterm2.com/)
-* [Firefox](https://www.mozilla.org/en-GB/firefox/)
+* [Vivaldi](https://vivaldi.com/)
 * Apple Mail with [Fastmail](https://www.fastmail.com/)
 * [Things](https://culturedcode.com/things/)
-* Apple Notes, _maybe one day [Bear](https://bear.app/) will support tables..._
+* [Bear 2](https://bear.app/)
 
 ## Home Automation
 
-* [Raspberry Pi 4 & 3](https://en.wikipedia.org/wiki/Raspberry_Pi) running an increasing amount of Docker containers
-* [Conbee II](https://www.phoscon.de/en/conbee2) Zigbee dongles
+* [Dell Wyse 5070](https://www.parkytowers.me.uk/thin/wyse/5070/) and a [Raspberry Pi 3](https://en.wikipedia.org/wiki/Raspberry_Pi), running an increasing amount of Docker containers
+* [Sonoff](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-e/)/[Conbee II](https://www.phoscon.de/en/conbee2) Zigbee dongles
 * [Home Assistant](https://www.home-assistant.io/)
 * A mix of Hue, IKEA, and Aqara devices
-
-## Photography
-
-Increasingly just my phone, but also: 
-
-* [Canon EOS 70D](https://www.canon.co.uk/for_home/product_finder/cameras/digital_slr/eos_70d/)
-* [EF-S 17-55 f/2.8 IS USM](https://www.canon.co.uk/lenses/ef-s-17-55mm-f-2-8-is-usm-lens/) walkabout lens
-* [EF 50m f/1.8 II](https://www.canon.co.uk/for_home/product_finder/cameras/ef_lenses/standard_and_medium_telephoto/ef_50mm_f1.8_ii/) portrait lens
 
 ## Play
 
