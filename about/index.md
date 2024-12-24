@@ -12,6 +12,8 @@ eleventyNavigation:
 
 There's [Mastodon](https://indieweb.social/@jsh) and [BlueSky](https://bsky.app/profile/infernus.org), where I also occasionally post. And there's always [email](mailto:www+infernus@infernus.org).
 
+For professional contacts, there's [LinkedIn](https://www.linkedin.com/in/james-shiell/).
+
 I'm also on [GitHub](https://github.com/jshiell).
 
 ## Privacy
