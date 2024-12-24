@@ -3,19 +3,9 @@
   "url": "https://infernus.org/",
   "language": "en",
   "description": "The musings and ramblings of James Shiell.",
-  "feed": {
-    "subtitle": "The musings and ramblings of James Shiell.",
-    "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "id": "https://infernus.org/"
-  },
-  "jsonfeed": {
-    "path": "/feed/feed.json",
-    "url": "https://infernus.org/feed/feed.json"
-  },
   "author": {
     "name": "James Shiell",
     "email": "j+blog@infernus.org",
-    "url": "https://infernus.org/about-me/"
+    "url": "https://infernus.org/"
   }
 }

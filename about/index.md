@@ -1,20 +1,16 @@
 ---
 layout: layouts/page.njk
 title: About
-date: 2023-01-01
+date: 2024-12-24
 templateClass: tmpl-page
 eleventyNavigation:
   key: About
   order: 5
 ---
 
-## Me, Myself, and I
-
-I'm James Shiell. To pay the bills I write software and manage software developers. For fun, I write code; experiment with my home; play computer and board games; and have a dangerous taste for chewy stouts. I'm located near London, where I live with my partner and dog.
-
 ## Contact
 
-There's [Mastodon](https://mastodon.social/@jsh), where I also occasionally post. And there's always [email](mailto:www+infernus@infernus.org).
+There's [Mastodon](https://indieweb.social/@jsh) and [BlueSky](https://bsky.app/profile/infernus.org), where I also occasionally post. And there's always [email](mailto:www+infernus@infernus.org).
 
 I'm also on [GitHub](https://github.com/jshiell).
 
