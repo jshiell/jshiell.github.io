@@ -27,9 +27,9 @@ Some of the tools/toys/various other things I like to use, inspired by [Wes Bos'
 
 ## Productive Software
 
-* [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 * [VS Code](https://code.visualstudio.com/)
-* [iTerm](https://iterm2.com/)
+* [Alacritty](https://alacritty.org)
 * [Vivaldi](https://vivaldi.com/)
 * Apple Mail with [Fastmail](https://www.fastmail.com/)
 * [Things](https://culturedcode.com/things/)
