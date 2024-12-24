@@ -6,6 +6,7 @@ templateClass: tmpl-page
 eleventyNavigation:
   key: Uses
   order: 4
+backgroundcolour: purple
 ---
 
 Some of the tools/toys/various other things I like to use, inspired by [Wes Bos' uses.tech](https://uses.tech/).

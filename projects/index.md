@@ -6,6 +6,7 @@ templateClass: tmpl-page
 eleventyNavigation:
   key: Projects
   order: 3
+backgroundcolour: green
 ---
 
 ## Software

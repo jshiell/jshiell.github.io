@@ -6,6 +6,7 @@ templateClass: tmpl-page
 eleventyNavigation:
   key: About
   order: 5
+backgroundcolour: red
 ---
 
 ## Contact
